@@ -19,9 +19,9 @@ bool checkPrime(uint64_t value) {
 uint64_t nPrime(uint64_t n) {
     uint64_t k = 2;
     uint64_t chislo = 0;
-    while (value != 0) {
+    while (n != 0) {
         if (checkPrime(k) == true) {
-            value--;
+            n--;
             chislo = k;
         }
         k++;
